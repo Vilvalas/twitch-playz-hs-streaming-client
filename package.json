@@ -1,0 +1,12 @@
+{
+  "name": "twitch-playz-hs-streaming-client",
+  "private": true,
+  "dependencies": {
+    "robotjs": "0.4.7"
+  },
+  "devDependencies": {
+    "electron": "^1.7.5",
+    "electron-packager": "^9.0.0",
+    "electron-rebuild": "^1.6.0"
+  }
+}

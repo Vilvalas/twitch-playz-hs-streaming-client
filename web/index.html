@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <!-- libs -->
+    <!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="libs/TimeCircles.css" />
+    <link rel="stylesheet" href="main.css" />
+
+    <meta charset="UTF-8">
+    <title>Server client</title>
+</head>
+<body>
+<div id="playerWrapper" class="playerWrapper">
+    <canvas id="arrowCanvas" class="arrowCanvas"></canvas>
+</div>
+
+    <div id="countDownTimer" data-timer="5"></div>
+    <!--
+    <div id="currentViewersDiv">
+        <img id="currentViewersImg" src="currentViewers.png"/>
+        <div id="currentViewersNumber"></div>
+    </div>
+    -->
+
+    <!-- libs -->
+    <!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+    <script type="text/javascript" src="libs/jquery.min.js"></script>
+    <script src="libs/socket.io-1.4.5.js"></script>
+    <script type="text/javascript" src="libs/TimeCircles.js"></script>
+
+    <script src="server_main.js"></script>
+
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+</body>
+</html>

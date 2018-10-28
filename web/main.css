@@ -1,0 +1,122 @@
+body{
+    background: green;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.example {
+    width: 400px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+small.codeType {
+    position: absolute;
+    top: -2px;
+    right: 5px;
+    font-weight: bold;
+    color: #900;
+}
+h2,h3 {
+    margin-top: 1.5em;
+}
+
+pre {
+    position: relative;
+}
+.code {
+    position: relative;
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+    font-size: 13px;
+    line-height: 1.428571429;
+    color: #000;
+    white-space: pre-line;
+}
+
+.arrowCanvas {
+    position: absolute;
+    border: none;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    /* opacity: 0.5; */
+}
+
+.playerWrapper {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/*
+#currentViewersImg{
+    position: absolute;
+    bottom: 44px;
+    left: 13px;
+    width: auto;
+    height: 45px;
+}
+
+#currentViewersNumber{
+    position: absolute;
+    width: 100px;
+    text-align: left;
+    font-size: 300%;
+    color: #A91616;
+    bottom: 39px;
+    left: 66px;
+}
+*/
+
+.nav li {
+    list-style: none;
+}
+.nav li a {
+    color: #60686F;
+    display: block;
+}
+.nav li a:hover {
+    text-decoration: none;
+    background-color: rgb(238, 238, 238);
+}
+.nav li.active > a {
+    border-right: solid #C0C8CF 2px;
+    font-weight: bold;
+}
+
+
+.nav li.active {
+}
+
+.nav li ul {
+    display: none;
+}
+
+.nav li.active ul {
+    display: block;
+}
+
+#countDownTimer {
+    position: absolute;
+    top: -15px;
+    right: 0;
+    width: 250px;
+    height: 250px;
+}
+
+.time_circles > div > span {
+    color: #99CCFF;
+}
